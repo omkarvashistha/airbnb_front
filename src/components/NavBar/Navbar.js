@@ -5,7 +5,7 @@ import SearchBar from '../SearchBar/SearchBar'
 const Navbar = () => {
     return(
         <div className='Navbar_main'>
-            <img src='/icon2.png' width={"70px"} height={"70px"}/>
+            <img src='/icon2.png' alt='icon' width={"70px"} height={"70px"} />
             <SearchBar/>
             <div className='third'>
 
