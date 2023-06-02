@@ -1,0 +1,41 @@
+.Navbar_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0.5% 4%;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 1px 0px 2px;
+}
+
+
+.third{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1%;
+    min-width: 24%;
+}
+
+.third>div{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Navbar_language{
+    margin-left: 7%;
+}
+
+.Navbar_login{
+    margin-left: 6%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 0.7%;
+    box-shadow: 0px 0px 2px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    width : 70px;
+    background: transparent;
+}
+
