@@ -2,7 +2,7 @@ import React , {useEffect, useState}  from 'react'
 import './SearchBar.css';
 import Button from '../../commonComponents/Button';
 
-function SearchBar( { setisClicked } ) {
+function NewSearchBar( { setisClicked } ) {
 
     //taking state from child`
    
@@ -14,7 +14,7 @@ function SearchBar( { setisClicked } ) {
    
 
     useEffect(()=>{
-        console.log("searchbar");
+        console.log("new searchbar");
     },[]);
 
     return (
@@ -22,22 +22,20 @@ function SearchBar( { setisClicked } ) {
     <div className='search-bar'>
         
         <Button 
-            cssclass="any-where" 
-            DivText="Anywhere"
-            handleClick={handleClick}
-            val="any-where"   
+            cssclass="where" 
+            DivText="Where"
+            handleClick={handleClick}  
         />
 
         <Button 
-            cssclass="any-week" 
-            DivText="Any Week" 
-            handleClick={handleClick} 
-            val="any-week"  
+            cssclass="Check-in" 
+            DivText="CheckIn" 
+            handleClick={handleClick}  
         />
 
         <Button 
-            cssclass="add-guests" 
-            DivText="Add guests" 
+            cssclass="Checkout" 
+            DivText="Check out" 
             handleClick={handleClick}
             val="add-guests"     
         />
@@ -47,4 +45,4 @@ function SearchBar( { setisClicked } ) {
   )
 }
 
-export default SearchBar;
+export default NewSearchBar;
