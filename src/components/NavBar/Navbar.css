@@ -14,7 +14,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1%;
+    padding: 2;
     min-width: 24%;
 }
 
@@ -44,3 +44,33 @@
     transition: 0.5s;
     box-shadow: 0px 0px 4px rgb(59, 58, 58);
 }
+
+.Navbar_menu{
+    position: absolute;
+    top : 95px;
+    right : 65px;
+    width : 240px;
+    padding-top : 0.3%;
+    padding-bottom: 0.3%;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 0px 3px black;
+}
+
+.Navbar_menu:nth-child(1){
+    background-color: red;
+}
+
+.Navbar_menu div {
+    margin-top : 2%;
+    margin-bottom : 2%;
+    padding: 5%;
+}
+
+.Navbar_menu div:hover{
+    background-color: rgb(233, 232, 232);
+    cursor: pointer;
+ }
+
+
+
