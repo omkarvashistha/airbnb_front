@@ -1,64 +1,31 @@
+:root{
+  --smokywhite:hsl(0 0% 78%);
+}
+
 .search-bar{
     display: flex;
-    box-shadow:0 0 5px hsl(0 0% 78%);
-    width: 60%;
+    box-shadow:0 0 5px var(--smokywhite);
+    width: 50%;
     height: 70%;
     border-radius: 100vw;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.6rem;
-    margin-top: 2%;
+    margin: 0.75rem 13%;
 }
 
-/* .search-bar button{
-    border-radius:inherit;
-    padding:0.8rem 1.5rem;
-    transition:background 250ms ease;
-} */
-
-
-
-
-/* .search-bar>button{
-    border: none;
+.search-bar > button{
+  width: 52%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
-.location{
-    width:34%;
-    overflow:hidden;
-  }
-  .check-in, .check-out, .guests{
-    width:22%;
-    overflow:hidden;
-  }
+.searchbar_line{
+  width : 1.2px;
+  height : 25px;
+  background-color: rgb(189, 186, 186);
+}
 
-  .guests{
-    position: relative;  
-  }
-
-  To set input field border
-  button > div{
-    background:none;
-    border:none;
-    padding:0.2rem;
-  }
-
-  /* vertical bars */
-  /* .search-bar>button::before{
-    position:absolute;
-    content:"";
-    left:0;
-    top:50%;
-    transform:translateY(-50%);
-    width:1px;
-    height:55%;
-    background:hsl(0 0% 90%);
-  } */
-
-  /* partition lines hover disappear*/
-  /* .search-bar > button :hover::before{
-    background-color: transparent;
-  }
-
-  .search-bar button:hover{
-    background:hsl(0 0% 94%);
-  }   */

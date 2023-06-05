@@ -6,22 +6,19 @@
 
 .navbar-wrapper{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
     width: 100%;
     border-bottom: 4px solid whitesmoke;
 }
 
-.navbar-wrapper-extend{
-    display: flex;
-    height: 120px;
-    width: 100%;
-    border-bottom: 4px solid whitesmoke;
-}
 
 .logo{
     width: 10%;
     height: 100%;
     padding: 2%;
+    border: 1px solid black;
 }
 
 .logo img{

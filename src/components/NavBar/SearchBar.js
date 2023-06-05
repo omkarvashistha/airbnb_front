@@ -27,6 +27,7 @@ function SearchBar( { setisClicked } ) {
             handleClick={handleClick}
             val="any-where"   
         />
+         <span className="searchbar_line"></span>
 
         <Button 
             cssclass="any-week" 
@@ -34,6 +35,7 @@ function SearchBar( { setisClicked } ) {
             handleClick={handleClick} 
             val="any-week"  
         />
+         <span className="searchbar_line"></span>
 
         <Button 
             cssclass="add-guests" 
